@@ -1,5 +1,5 @@
 package module8;
 
-public interface Shape {
-    void printName();
+public abstract class Shape {
+    public abstract String getName();
 }
