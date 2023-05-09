@@ -8,12 +8,11 @@ public class Main {
         Shape shape4 = new Square();
         Shape shape5 = new Trapezoid();
         Shape shape6 = new Triangle();
-
-        shape1.printName();
-        shape2.printName();
-        shape3.printName();
-        shape4.printName();
-        shape5.printName();
-        shape6.printName();
+        NamePrinter.printShapeName(shape1);
+        NamePrinter.printShapeName(shape2);
+        NamePrinter.printShapeName(shape3);
+        NamePrinter.printShapeName(shape4);
+        NamePrinter.printShapeName(shape5);
+        NamePrinter.printShapeName(shape6);
     }
 }
