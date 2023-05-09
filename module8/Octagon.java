@@ -1,8 +1,8 @@
 package module8;
 
-public class Octagon implements Shape{
+public class Octagon extends Shape{
     @Override
-    public void printName() {
-        System.out.println("Octagon");
+    public String getName() {
+        return "Octagon";
     }
 }

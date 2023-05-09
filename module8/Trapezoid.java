@@ -1,8 +1,8 @@
 package module8;
 
-public class Trapezoid implements Shape{
+public class Trapezoid extends Shape{
     @Override
-    public void printName() {
-        System.out.println("Trapezoid");
+    public String getName() {
+        return "Trapezoid";
     }
 }

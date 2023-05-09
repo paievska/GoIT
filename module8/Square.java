@@ -1,8 +1,8 @@
 package module8;
 
-public class Square implements Shape{
+public class Square extends Shape{
     @Override
-    public void printName() {
-        System.out.println("Square");
+    public String getName() {
+        return "Square";
     }
 }

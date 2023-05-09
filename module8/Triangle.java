@@ -1,8 +1,8 @@
 package module8;
 
-public class Triangle implements Shape{
+public class Triangle extends Shape{
     @Override
-    public void printName() {
-        System.out.println("Triangle");
+    public String getName() {
+        return "Triangle";
     }
 }

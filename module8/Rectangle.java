@@ -1,8 +1,8 @@
 package module8;
 
-public class Rectangle implements Shape{
+public class Rectangle extends Shape{
     @Override
-    public void printName() {
-        System.out.println("Rectangle");
+    public String getName() {
+        return "Rectangle";
     }
 }
